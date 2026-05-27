@@ -1,16 +1,101 @@
-# React + Vite
+# She Can Foundation — Full Stack Development Internship Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive website built for **She Can Foundation**, a youth-driven NGO working towards creating opportunities, awareness, and positive social impact through education, digital initiatives, and community-driven programs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+> Coming soon via Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built as part of the **Web Development Internship** selection task for She Can Foundation.
+
+The website includes:
+- ✅ Home / Hero Section
+- ✅ About Section with feature cards
+- ✅ Volunteer / Join Us Form with validation
+- ✅ Footer
+- ✅ Responsive Design
+- ✅ Smooth animations and hover effects
+- ✅ Backend-connected form (Node.js + MongoDB)
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js (Vite)
+- Tailwind CSS
+- Axios
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+
+---
+
+## 📁 Project Structure
+
+```
+shecan-foundation-project/
+├── client/               # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── VolunteerForm.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── index.html
+└── server/               # Node.js backend
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/sidhantsingla0-gif/shecan-foundation.git
+cd shecan-foundation
+```
+
+### 2. Run the frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### 3. Run the backend
+```bash
+cd server
+npm install
+npm start
+```
+
+---
+
+## ✨ Features
+
+- **Responsive Navbar** — fixed with blur effect, smooth anchor links
+- **Hero Section** — compelling headline, image, and CTA buttons
+- **About Section** — three feature cards (Education, Innovation, Community)
+- **Volunteer Form** — name, email, message fields with validation and success/error feedback
+- **Footer** — clean and minimal
+
+---
+
+## 👨‍💻 Built By
+
+**Sidhant**
+Internship Application — She Can Foundation
+Web Development Internship Task
